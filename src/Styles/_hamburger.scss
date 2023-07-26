@@ -1,0 +1,30 @@
+@mixin flexCenter($flex_direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $flex_direction;
+}
+
+.icon-menu{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid $text-color;
+    gap: 4px;
+    cursor: pointer;
+    transition: .3s;
+    background: $menubtn_background;
+    z-index: 99;    
+    @include flexCenter(column);
+    position: fixed;
+    right: 6px;
+    top: 6px;
+    
+    .bar{
+        width: 18px;
+        display: block;
+        height: 3px;
+        background: $text-color;
+        transition: .3s;
+    }
+}
