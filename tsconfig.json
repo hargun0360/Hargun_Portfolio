@@ -23,6 +23,6 @@
   },
   "include": [
     "src",
-    "src/declaration.d.ts",
+    "src/react-app-env.d.ts",
   ]
 }
