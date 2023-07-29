@@ -1,17 +1,20 @@
-import React from 'react';
+import React , {useState} from 'react';
 
 function Hamburger(){
+
+  const [active, setActive] = useState<boolean>(false);
+
     return (<>
-        <div className='icon-menu'>
+        <div className='icon-menu' onClick={() => setActive(true)} style={{display:"none"}}>
           <span className='bar' />
           <span className='bar' />
         </div>
-        <div className='responsive-sidebar-menu active'>
-          <div className='overlay active'></div>
-          <div className="sidebar-menu-inner active">
+        <div className={active ? 'responsive-sidebar-menu active' : 'responsive-sidebar-menu'}>
+          <div className='overlay' onClick={() => setActive(false)}></div>
+          <div className="sidebar-menu-inner">
             <div className="menu-wrap">
               <p>Menu</p>
-              <ul className='scroll-nav-respoonsive active'>
+              <ul className='scroll-nav-respoonsive'>
                   <li>
                     <a className='scroll-to active' href="#home">
                       <i className='las la-home'></i>
