@@ -1,5 +1,6 @@
 @import "config";
 @import "hamburger";
+@import "sidebar";
 
 @mixin flexCenter($flex_direction) {
     display: flex;
