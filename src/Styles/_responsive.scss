@@ -1,0 +1,67 @@
+
+@media (max-width: 2000px){
+    .left-sidebar {
+        max-width: 450px;
+    }
+    .responsive-sidebar-menu .sidebar-menu-inner .menu-wrap ul {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .sidebar {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .left-sidebar .sidebar-header {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 1555px){
+    .left-sidebar {
+        max-width: 450px;
+        padding: 28px;
+    }
+}
+
+
+@media (max-width: 1220px){
+    .sidebar {
+        display: none !important;
+    }
+    .icon-menu {
+        position: fixed;
+    }
+    .responsive-sidebar-menu .sidebar-menu-inner .menu-wrap ul{
+        display: flex !important;
+    }
+}
+
+@media (max-width: 1120px) {
+    .left-sidebar{
+        display: block;
+        position: relative;
+        max-width: 767px;
+        left: 0;
+        margin: auto;
+        top: 0;
+        transform: translateY(0);
+        margin-top: 20px;
+        color: 999999;
+    }
+}
+
+@media (max-width: 767px){
+    .icon-menu {
+        right: 30px;
+        top: 30px;
+    }
+    .custom-container {
+        max-width: 767px;
+    }
+}
+
+@media (max-width: 584px){
+    .skills-area, .services-area, .resume-area, .about-area, .hero-section {
+        padding-bottom: 0;
+    }
+}

@@ -5,7 +5,7 @@ function Hamburger(){
   const [active, setActive] = useState<boolean>(false);
 
     return (<>
-        <div className='icon-menu' onClick={() => setActive(true)} style={{display:"none"}}>
+        <div className='icon-menu' onClick={() => setActive(true)}>
           <span className='bar' />
           <span className='bar' />
         </div>
