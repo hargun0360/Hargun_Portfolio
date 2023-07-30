@@ -34,6 +34,12 @@
     .responsive-sidebar-menu .sidebar-menu-inner .menu-wrap ul{
         display: flex !important;
     }
+    .subtitle{
+        font-size: 1.5rem;
+    }
+    .section-header h1{
+        font-size: 2.5rem;
+    }
 }
 
 @media (max-width: 1120px) {
@@ -58,10 +64,35 @@
     .custom-container {
         max-width: 767px;
     }
+    .section-header .subtitle {
+        margin-bottom: 0;
+    }
 }
 
 @media (max-width: 584px){
     .skills-area, .services-area, .resume-area, .about-area, .hero-section {
         padding-bottom: 0;
     }
+    .section-header {
+        h2{
+            font-size: 32px;
+            position: relative;
+            top: 30px;
+        }
+        .type-writter-effect{
+            font-size: 32px;
+        }
+        h1{
+           margin-bottom: 0;
+        }
+    }
+    .hero-content {
+        position: relative;
+        p{
+         
+                max-width: 665px;
+                font-size: 18px;
+            
+        }
+      }
 }

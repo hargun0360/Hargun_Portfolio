@@ -119,6 +119,8 @@
         text-decoration: none;
         letter-spacing: 2px;
         font-weight: 700;
+        background: none;
+        color: $text-color;
         i{
             font-size: 24px;
             margin-right: 10px;
@@ -126,8 +128,8 @@
             margin-bottom: 3px;
         }
         &:hover{
-           background: none;
-           color: $text-color;
+          background: $primary-color;
+          color: #000000;
         }
     }
 }
