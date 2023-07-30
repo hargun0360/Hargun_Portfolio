@@ -3,6 +3,7 @@ import Hamburger from '../Components/Hamburger'
 import Sidebar from '../Components/Sidebar'
 import Intro from '../Components/Intro'
 import Type from '../Components/Type'
+import My_Projects from '../Components/My_Projects'
 
 const Home = () => {
   return (<>
@@ -39,6 +40,7 @@ const Home = () => {
                        I am an enthusiastic learner who thrives on acquiring new skills and applying them in real-life projects,
                        constantly evolving to create innovative and impactful solutions.
                       </p>
+                      <My_Projects />
                     </div>
                   </div>
               </section>
