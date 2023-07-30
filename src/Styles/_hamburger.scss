@@ -17,8 +17,8 @@
     z-index: 99;    
     @include flexCenter(column);
     position: fixed;
-    right: 6px;
-    top: 6px;
+    right: 74px;
+    top: 68px;
     
     .bar{
         width: 20px;
@@ -82,7 +82,7 @@
                 padding-top: 20px;       
 
                 p{
-                    font-size: 20px;
+                    font-size: 30px;
                     color: $text-color;
                 }
             
@@ -103,7 +103,7 @@
                 border-radius: 0;
                 border: none;
                 margin-bottom: 30px;
-                font-size: 16px;
+                font-size: 20px;
                 li{
                     a{
                         width: 55px;
@@ -127,7 +127,7 @@
                         }
                         i{
                             margin-bottom: 2px;
-                            font-size: 20px;
+                            font-size: 24px;
                             display: block;
                         }
                     }
@@ -164,7 +164,7 @@
             a{
                 color: $icons-color;
                 transition: .3s;
-                font-size: 18px;
+                font-size: 24px;
 
                 &:hover{
                     color: $primary-color;

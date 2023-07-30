@@ -8,7 +8,7 @@
     right: 68px;
     top: 322px;
     text-align: center;
-    gap: 20px;
+    gap: 30px;
     padding: 24px 0;
     background: #1f1f1f;
     z-index: 20;
@@ -27,7 +27,7 @@
             span{
                 position: absolute;
                 transition: .3s;
-                font-size: 12px;
+                font-size: 18px;
                 background: #404042;
                 right: 100%;
                 color: #fff;
@@ -60,7 +60,7 @@
                 color: $primary-color;
             }
             i{
-                font-size: 20px;
+                font-size: 24px;
                 display: block;
             }
         }

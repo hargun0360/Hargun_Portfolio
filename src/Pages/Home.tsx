@@ -6,8 +6,8 @@ import Type from '../Components/Type'
 
 const Home = () => {
   return (<>
-        {/* <Hamburger />
-        <Sidebar /> */}
+        <Hamburger />
+        <Sidebar />
         {/* <Intro /> */}
         <main className="Hargun-main">
           <div id="smooth-wrapper">
