@@ -3,6 +3,7 @@ import './Styles/main.scss';
 import video from './Assets/video3.mp4';
 import Home from './Pages/Home';
 import About from './Pages/About';
+import Experience from './Pages/Experience';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       </video>
       <Home />
       <About />
+      <Experience />
     </div>
   );
 }

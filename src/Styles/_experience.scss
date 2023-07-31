@@ -1,0 +1,112 @@
+.resume-area {
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+    .custom-container {
+        max-width: 1130px;
+        padding: 0 15px;
+        margin: auto;
+
+        .content-width {
+            max-width: 770px;
+            width: 100%;
+            margin-left: auto;
+
+            .section-header {
+                .subtitle {
+                  font-size: 15px;
+                  color: $text-color;
+                  text-transform: uppercase;
+                  font-weight: 300;
+                  margin: 0;
+                  border: 1px solid #565656;
+                  padding: 9px 20px;
+                  border-radius: 30px;
+                  margin-bottom: 53px;
+                  display: inline-flex;
+                  align-items: center;
+                  opacity: 1;
+                  transform: translate(0px, 0px);
+                  letter-spacing: 1px;
+        
+                  i {
+                    margin-bottom: 1px;
+                    font-size: 14px;
+                    margin-right: 10px;
+                  }
+                }
+                h1 {
+                  font-size: 48px;
+                  line-height: 60px;
+                  color: #fff;
+                  font-weight: 300;
+                  margin-bottom: 33px;
+                  opacity: 1;
+                  transform: translate(0px, 0px);
+                }
+              }
+        }
+    }
+
+    .resume-content{
+        .resume-timeline{
+            .item{
+                position: relative;
+                padding-left: 60px;
+                padding-bottom: 30px;
+                opacity: 1;
+                transform: translate(0px, 0px);
+
+                &::before{
+                    content: '';
+                    position: absolute;
+                    width: 12px;
+                    height: 12px;
+                    background: #656565;
+                    border-radius: 50%;
+                    left: -5px;
+                    top: 7px;
+                    transition: .3s;
+                    
+                } 
+
+                &::after{
+                    content: '';
+                    background: #333333;
+                    width: 1px;
+                    height: 100%;
+                    position: absolute;
+                    left: 0;
+                    top: 10px;
+                    z-index: -1;
+                }
+
+                &:hover{
+                    color: $primary-color;
+                    &::before{
+                        background: $primary-color;
+                    }
+                }
+
+                .date{
+                    display: block;
+                    margin-bottom: 15px;
+                    transition: .3s;
+                    font-size: 20px;
+                }
+                h2{
+                    font-size: 30px;
+                    font-weight: 300;
+                    margin-bottom: 5px;
+                    color: #fff;
+                }
+                p{
+                    font-size: 25px;
+                    color: #999999;
+                    margin-bottom: 18px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
