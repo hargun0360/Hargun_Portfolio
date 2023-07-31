@@ -1,0 +1,65 @@
+.about-area {
+  padding-top: 90px;
+  padding-bottom: 90px;
+
+  .custom-container {
+    max-width: 1130px;
+    padding: 0 15px;
+    margin: auto;
+
+    .content-width {
+      max-width: 770px;
+      width: 100%;
+      margin-left: auto;
+
+      .section-header {
+        .subtitle {
+          font-size: 15px;
+          color: $text-color;
+          text-transform: uppercase;
+          font-weight: 300;
+          margin: 0;
+          border: 1px solid #565656;
+          padding: 9px 20px;
+          border-radius: 30px;
+          margin-bottom: 53px;
+          display: inline-flex;
+          align-items: center;
+          opacity: 1;
+          transform: translate(0px, 0px);
+          letter-spacing: 1px;
+
+          i {
+            margin-bottom: 1px;
+            font-size: 14px;
+            margin-right: 10px;
+          }
+        }
+        h1 {
+          font-size: 48px;
+          line-height: 60px;
+          color: #fff;
+          font-weight: 300;
+          margin-bottom: 33px;
+          opacity: 1;
+          transform: translate(0px, 0px);
+        }
+      }
+
+      p {
+        line-height: 30px;
+        font-size: 20px;
+        max-width: 790px;
+        opacity: 1;
+        transform: translate(0px, 0px);
+
+        span{
+            color: $text-color;
+        }
+      }
+    }
+  }
+}
+.page-section {
+  overflow: hidden;
+}
