@@ -117,4 +117,17 @@
         }
     }
 
+    .card{
+        flex-wrap: wrap-reverse;
+        .right-part{
+            padding-left: 0;
+        }
+
+        .left-part{
+            padding-top: 50px;
+        }
+    }
+
+
+
 }

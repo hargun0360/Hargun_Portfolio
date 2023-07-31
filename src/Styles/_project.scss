@@ -1,0 +1,104 @@
+.project-area {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  
+    .custom-container {
+      max-width: 1130px;
+      padding: 0 15px;
+      margin: auto;
+
+  
+      .content-width {
+        max-width: 770px;
+        width: 100%;
+        margin-left: auto;
+  
+        .section-header {
+          .subtitle {
+            font-size: 15px;
+            color: $text-color;
+            text-transform: uppercase;
+            font-weight: 300;
+            margin: 0;
+            border: 1px solid #565656;
+            padding: 9px 20px;
+            border-radius: 30px;
+            margin-bottom: 53px;
+            display: inline-flex;
+            align-items: center;
+            opacity: 1;
+            transform: translate(0px, 0px);
+            letter-spacing: 1px;
+  
+            i {
+              margin-bottom: 1px;
+              font-size: 14px;
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+.card{
+    display: flex;
+    gap: 5px;
+    padding-bottom: 80px;
+
+    .left-part{
+        .project-heading{
+            h2{
+                color: $text-color;
+                font-size: 28px;
+            }
+        }
+        .project-discription{
+            h4{
+                font-size: 18px;
+                line-height: 28px;
+            }
+        }
+        .tech-stack{
+            display: flex;
+            color: $text-color;
+            padding-top: 10px;
+            gap: 15px;
+            flex-wrap: wrap;
+            div{
+                font-size: 16   px;
+                border: 1px solid $primary-color;
+                border-radius: 8px;
+                padding: 5px 15px;
+            }
+        }
+    }
+
+    .right-part{
+        padding-left: 20px;
+        position: relative;
+        img{
+            height: 250px;
+            width: 350px;
+            border: 1px solid transparent !important;
+            border-radius: 10px;
+        }
+        .links{
+            display: flex;
+            font-size: 30px;
+            position: absolute;
+            right: 0;
+            gap: 8px;
+            padding-top: 10px;
+            
+            a{
+                cursor: pointer;
+                text-decoration: none;
+                color: #999999;
+                &:hover{    
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}

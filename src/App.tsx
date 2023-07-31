@@ -4,6 +4,7 @@ import video from './Assets/video3.mp4';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Experience from './Pages/Experience';
+import Project from './Pages/Project';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Home />
       <About />
       <Experience />
+      <Project />
     </div>
   );
 }
