@@ -21,7 +21,7 @@ function App() {
       <Skills />
       <Profile />
       <section
-        className="project-area page-section scroll-to-page"
+        className="footer-area page-section scroll-to-page"
         id="project"
       >
         <div className="custom-container">

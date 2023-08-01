@@ -28,25 +28,25 @@ function Hamburger(){
                     </a>
                   </li>
                   <li>
-                    <a className='scroll-to ' href="#home">
+                    <a className='scroll-to ' href="#project">
                     <i className='las la-grip-vertical'></i>
                       <span>Projects</span>
                     </a>
                   </li>
                   <li>
-                    <a className='scroll-to ' href="#home">
+                    <a className='scroll-to ' href="#experience">
                     <i className='las la-stream'></i>
                       <span>Experiences</span>
                     </a>
                   </li>
                   <li>
-                    <a className='scroll-to ' href="#home">
+                    <a className='scroll-to ' href="#skills">
                     <i className='las la-shapes'></i>
                       <span>Skills</span>
                     </a>
                   </li>
                   <li>
-                    <a className='scroll-to ' href="#home">
+                    <a className='scroll-to ' href="#profiles">
                       <i className='las la-code'></i>
                       <span>Profiles</span>
                     </a>
@@ -57,17 +57,17 @@ function Hamburger(){
               <p>Social</p>
               <ul className='social-links'>
                 <li>
-                  <a>
+                  <a href='https://www.linkedin.com/in/hargun-singh-4a10a7212/?originalSubdomain=in' target='_blank'>
                     <i className='lab la-linkedin'></i>
                   </a>
                 </li>
                 <li>
-                  <a>
+                  <a href='https://github.com/hargun0360' target='_blank'>
                   <i className='lab la-github'></i>
                   </a>
                 </li>
                 <li>
-                  <a>
+                  <a href="mailto:hargunbit1001@gmail.com" target='_blank'>
                   <i className="las la-envelope"></i>
                   </a>
                 </li>

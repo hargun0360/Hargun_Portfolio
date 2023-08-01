@@ -1,7 +1,7 @@
 function Experience() {
   return (
     <>
-      <section className="resume-area page-section scroll-to-page" id="resume">
+      <section className="resume-area page-section scroll-to-page" id="experience">
         <div className="custom-container">
           <div className="resume-content content-width">
             <div className="section-header">

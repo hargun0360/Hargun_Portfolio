@@ -9,7 +9,7 @@ function Skills() {
     <>
       <section
         className="project-area page-section scroll-to-page"
-        id="project"
+        id="skills"
       >
         <div className="custom-container">
           <div className="prject-content content-width">
