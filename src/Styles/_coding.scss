@@ -1,0 +1,29 @@
+.coding-profile{
+    h1{
+        font-size: 48px;
+        line-height: 60px;
+        color: #fff;
+        font-weight: 300;
+        margin-bottom: 40px;
+        opacity: 1;
+        transform: translate(0px, 0px);
+
+        span{
+            color: $primary-color;
+        }
+    }
+
+    div{
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        margin-top: 30px;
+        padding: 50px 0;
+
+        .codechef{
+            height: 100px;
+            width: 200px;
+        }
+    }
+}
