@@ -19,7 +19,7 @@ function About() {
               creating innovative and user-friendly web applications. I have a
               strong foundation in <span>C/C++, JavaScript, and React</span> , and I have
               experience with a variety of other technologies, including Redux,
-              Next.js, Node.js, Express, webRTC, HTML/CSS, SASS, NoSQL, SQL, and
+              Next.js, Node.js, Express, webRTC, HTML/CSS, SASS, NoSQL, and
               GraphQL. <br></br> <br></br> I am currently pursuing my Bachelor's degree in
               Information Technology at Ajay Kumar Garg Engineering College,
               where I am maintaining a <span>current CGPA of 7.8</span> . I am also the lead
