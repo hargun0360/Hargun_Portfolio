@@ -1,4 +1,8 @@
 import React , {useState} from 'react';
+import { Link, LinkProps } from 'react-scroll';
+
+// Custom type to omit the 'href' property from LinkProps
+type ScrollLinkProps = Omit<LinkProps, 'href'>;
 
 function Hamburger(){
 
@@ -16,40 +20,40 @@ function Hamburger(){
               <p>Menu</p>
               <ul className='scroll-nav-respoonsive'>
                   <li>
-                    <a className='scroll-to ' href="#home">
+                    <Link spy={true} smooth={true} offset={0} duration={700} className='scroll-to ' to="home" href=''>
                       <i className='las la-home'></i>
                       <span>Home</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className='scroll-to ' href="#about">
+                    <Link spy={true} smooth={true} offset={50} duration={700} className='scroll-to ' to="about" href=''>
                       <i className='lar la-user'></i>
                       <span>About</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className='scroll-to ' href="#project">
-                    <i className='las la-grip-vertical'></i>
-                      <span>Projects</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a className='scroll-to ' href="#experience">
+                    <Link spy={true} smooth={true} offset={50} duration={700} className='scroll-to ' to="experience" href=''>
                     <i className='las la-stream'></i>
                       <span>Experiences</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className='scroll-to ' href="#skills">
+                    <Link spy={true} smooth={true} offset={50} duration={700} className='scroll-to ' to="project" href=''>
+                    <i className='las la-grip-vertical'></i>
+                      <span>Projects</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link spy={true} smooth={true} offset={50} duration={700} className='scroll-to ' to="skills" href=''>
                     <i className='las la-shapes'></i>
                       <span>Skills</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className='scroll-to ' href="#profiles">
+                    <Link spy={true} smooth={true} offset={50} duration={700} className='scroll-to ' to="profiles" href=''>
                       <i className='las la-code'></i>
                       <span>Profiles</span>
-                    </a>
+                    </Link>
                   </li>
               </ul>
             </div>
