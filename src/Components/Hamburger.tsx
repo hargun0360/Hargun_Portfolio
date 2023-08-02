@@ -16,7 +16,7 @@ function Hamburger(){
               <p>Menu</p>
               <ul className='scroll-nav-respoonsive'>
                   <li>
-                    <a className='scroll-to active' href="#home">
+                    <a className='scroll-to ' href="#home">
                       <i className='las la-home'></i>
                       <span>Home</span>
                     </a>
