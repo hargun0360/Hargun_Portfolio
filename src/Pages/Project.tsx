@@ -18,8 +18,8 @@ function Project() {
               </h4>
             </div>
             <div className="project-cards">
-                {projects.map((project) =>(
-                    <Card {...project} />
+                {projects.map((project , index) =>(
+                    <Card key={index} {...project} />
                 ))}
             </div>
           </div>

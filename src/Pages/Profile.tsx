@@ -22,9 +22,9 @@ function Profile() {
             <div className="coding-profile">
                 <h1>Accomplished <span>500+</span> Data Structure and Algorithm Problems on Multiple Platforms.</h1>
                 <div className="links">
-                    <img src={leetcode} alt="leetcode" />
-                    <img src={codeforces} alt="codeforces" />
-                    <img src={codechef} className="codechef" alt="codechef" />
+                   <a href="https://leetcode.com/hargunbit1001/" target="_blank"> <img src={leetcode} alt="leetcode" /></a> 
+                    <a href="https://codeforces.com/profile/bit_1001" target="_blank"><img src={codeforces} alt="codeforces" /></a> 
+                    <a href="https://www.codechef.com/users/hargun_0360" target="_blank"><img src={codechef} className="codechef" alt="codechef" /></a> 
                 </div>
             </div>
           </div>

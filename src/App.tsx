@@ -1,4 +1,4 @@
-import React , {useEffect , useState} from "react";
+import React , {useEffect , useState , useRef} from "react";
 import "./Styles/main.scss";
 import video from "./Assets/video3.mp4";
 import Home from "./Pages/Home";
@@ -7,6 +7,7 @@ import Experience from "./Pages/Experience";
 import Project from "./Pages/Project";
 import Skills from "./Pages/Skills";
 import Profile from "./Pages/Profile";
+import AnimatedCursor from "react-animated-cursor"
 
 function App() {
 
@@ -61,6 +62,29 @@ function App() {
       <video className="body-overlay" muted autoPlay loop>
         <source src={video}></source>
       </video>
+      <AnimatedCursor
+         innerSize={15}
+         outerSize={20}
+         color='40, 233, 140'
+         outerAlpha={0.5}
+         innerScale={0.7}
+         outerScale={6}
+         clickables={[
+           'a',
+           'input[type="text"]',
+           'input[type="email"]',
+           'input[type="number"]',
+           'input[type="submit"]',
+           'input[type="image"]',
+           'label[for]',
+           'select',
+           'textarea',
+           'button',
+           '.link',
+           'i',
+
+         ]}
+      />
       <Home />
       <About />
       <Experience />
@@ -74,7 +98,7 @@ function App() {
         <div className="custom-container">
           <div className="prject-content content-width">
             <div className="footer">
-          <h3>Designed by Drake And Developed By Hargun Singh With Love ❤️</h3>
+          <h3>Designed And Developed By Hargun Singh With Love ❤️</h3>
           </div>
           </div>
         </div>

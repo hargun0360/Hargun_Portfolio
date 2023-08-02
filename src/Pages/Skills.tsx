@@ -24,16 +24,16 @@ function Skills() {
                 <div className="frontend-development">
                     <h3>Frontend Development</h3>
                     <div>
-                      { skill_obj.frontend.map((img)=>(
-                        <img src={img} alt="tech-stack" />
+                      { skill_obj.frontend.map((img , index)=>(
+                        <img src={img} key={index} alt="tech-stack" />
                        ))}
                     </div>
                 </div>
                 <div className="Backend-development">
                     <h3>Backend Development</h3>
                     <div>
-                      { skill_obj.backend.map((img)=>(
-                        <img src={img} alt="tech-stack" />
+                      { skill_obj.backend.map((img , index)=>(
+                        <img key={index} src={img} alt="tech-stack" />
                        ))}
                        <img src={postman} width={"100px"} height={"100px"} alt="tech-stack" />
                     </div>
@@ -41,16 +41,16 @@ function Skills() {
                 <div className="Databases">
                     <h3>Databases</h3>
                     <div>
-                      { skill_obj.databases.map((img)=>(
-                        <img src={img} alt="tech-stack" />
+                      { skill_obj.databases.map((img , index)=>(
+                        <img src={img} key={index} alt="tech-stack" />
                        ))}
                     </div>
                 </div>
                 <div className="Other-Skills">
                     <h3>Other Skills</h3>
                     <div>
-                      { skill_obj.others.map((img)=>(
-                        <img src={img} alt="tech-stack" />
+                      { skill_obj.others.map((img,index)=>(
+                        <img src={img} key={index} alt="tech-stack" />
                        ))}
                     </div>
                 </div>
