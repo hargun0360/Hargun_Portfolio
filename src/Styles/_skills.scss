@@ -3,7 +3,7 @@
     flex-direction: column;
 
     h1{
-        font-size: 48px;
+        font-size: 42px;
         line-height: 60px;
         color: #fff;
         font-weight: 300;
@@ -19,7 +19,7 @@
     div{
         padding: 15px 0;
         h3{
-            font-size: 24px;
+            font-size: 20px;
         }
         div{
             display: flex;
@@ -27,6 +27,8 @@
             gap: 20px;
 
             img{
+                width: 80px;
+                height: 80px;
                 opacity: 0.9;
             }
         }

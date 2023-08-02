@@ -7,7 +7,7 @@
         top: 50%;
     }
     .sidebar {
-        top: 50%;
+        top: 57%;
         transform: translateY(-50%);
     }
     .left-sidebar .sidebar-header {
@@ -17,24 +17,15 @@
 
 @media (max-width: 1555px){
     .left-sidebar {
-        max-width: 450px;
-        padding: 28px;
+        max-width: 400px;
+        padding: 16px;
+    }
+    .left-sidebar .sidebar-header {
+        margin-bottom: 0px;
     }
 }
 
-@media (max-width: 1420px) {
-    .left-sidebar{
-        display: block;
-        position: relative;
-        max-width: 767px;
-        left: 0;
-        margin: auto;
-        top: 0;
-        transform: translateY(0);
-        margin-top: 20px;
-        color: 999999;
-    }
-}
+
 
 
 @media (max-width: 1220px){
@@ -55,6 +46,20 @@
     }
     .section-header h4 {
         font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1120px) {
+    .left-sidebar{
+        display: block;
+        position: relative;
+        max-width: 767px;
+        left: 0;
+        margin: auto;
+        top: 0;
+        transform: translateY(0);
+        margin-top: 20px;
+        color: 999999;
     }
 }
 
