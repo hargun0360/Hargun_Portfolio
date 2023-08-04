@@ -13,7 +13,7 @@ export default function projects_data (){
           REST APIs with Django Backend to serve 200+ faculty. Also, established a 
           dedicated admin panel for data oversight and performed bulk student  record uploads with 
           comprehensive validation from CSVs.`,
-          tech : ["React", "Redux" , "Djaongo" , "JavaScript" , "Skote"],
+          tech : ["React", "Redux" , "Django" , "JavaScript" , "Skote"],
           img : erp,
           github : "https://github.com/hargun0360/VE-CELL-FDP-Portal",
           link : "http://117.55.241.58:3000/",

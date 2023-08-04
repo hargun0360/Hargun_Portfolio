@@ -1,4 +1,4 @@
-import React , {useEffect , useState , useRef} from "react";
+import React , {useEffect , useState , CSSProperties} from "react";
 import "./Styles/main.scss";
 import video from "./Assets/video3.mp4";
 import Home from "./Pages/Home";
@@ -8,12 +8,20 @@ import Project from "./Pages/Project";
 import Skills from "./Pages/Skills";
 import Profile from "./Pages/Profile";
 import AnimatedCursor from "react-animated-cursor"
+import {InfinitySpin} from "react-loader-spinner"
+
+const override: CSSProperties = {
+  display: "block",
+  margin: "0 auto",
+  borderColor: "red",
+};
 
 function App() {
 
   const [menuLi, setMenuLi] = useState<NodeListOf<HTMLAnchorElement> | null>(null);
   const [menuLiHam, setMenuLiHam] = useState<NodeListOf<HTMLAnchorElement> | null>(null);
   const [sections, setSections] = useState<NodeListOf<HTMLElement> | null>(null);
+  const [flag,setFlag] = useState<boolean>(false);
 
   useEffect(() => {
     setMenuLi(document.querySelectorAll('.sidebar li a'));
@@ -56,54 +64,64 @@ function App() {
     };
   }, [menuLi, sections , menuLiHam]);
   // Rest of your component code...
+
+  useEffect(() => {
+    setTimeout(()=>{
+      setFlag(true);
+    },5000);
+  },[]);
   
   return (
-    <div className="App">
-      <video className="body-overlay" muted autoPlay loop>
-        <source src={video}></source>
-      </video>
-      <AnimatedCursor
-         innerSize={15}
-         outerSize={20}
-         color='40, 233, 140'
-         outerAlpha={0.5}
-         innerScale={0.7}
-         outerScale={6}
-         clickables={[
-           'a',
-           'input[type="text"]',
-           'input[type="email"]',
-           'input[type="number"]',
-           'input[type="submit"]',
-           'input[type="image"]',
-           'label[for]',
-           'select',
-           'textarea',
-           'button',
-           '.link',
-           'i',
-
-         ]}
-      />
-      <Home />
-      <About />
-      <Experience />
-      <Project />
-      <Skills />
-      <Profile />
-      <section
-        className="footer-area page-section scroll-to-page"
-        id="project"
-      >
-        <div className="custom-container">
-          <div className="prject-content content-width">
-            <div className="footer">
-          <h3>Designed And Developed By Hargun Singh With Love ❤️</h3>
-          </div>
-          </div>
+    <>
+      {flag ? (
+        <div className="App">
+          <video className="body-overlay" muted autoPlay loop>
+            <source src={video} />
+          </video>
+          <AnimatedCursor
+            innerSize={15}
+            outerSize={20}
+            color="40, 233, 140"
+            outerAlpha={0.5}
+            innerScale={0.7}
+            outerScale={6}
+            clickables={[
+              'a',
+              'input[type="text"]',
+              'input[type="email"]',
+              'input[type="number"]',
+              'input[type="submit"]',
+              'input[type="image"]',
+              'label[for]',
+              'select',
+              'textarea',
+              'button',
+              '.link',
+              'i',
+            ]}
+          />
+          <Home />
+          <About />
+          <Experience />
+          <Project />
+          <Skills />
+          <Profile />
+          <section className="footer-area page-section scroll-to-page" id="project">
+            <div className="custom-container">
+              <div className="prject-content content-width">
+                <div className="footer">
+                  <h3>Designed And Developed By Hargun Singh With Love ❤️</h3>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
-      </section>
-    </div>
+      ) : (
+        <div style={{display:"flex" , alignItems: "center" , justifyContent : "center" , width:"100%" , height:"100vh" , background:"black" , flexWrap:"wrap"}}>
+          <InfinitySpin width='200' color="#28E98C" />
+        </div>
+      )}
+    </>
   );
 }
 

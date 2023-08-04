@@ -29,7 +29,7 @@ const Home = () => {
                           </span>
                         </h2>
                         <h1 className="heading-name">
-                          I'M
+                          I'm
                           <strong className="main-name"> Hargun Singh</strong>
                         </h1>
                         <h1 className="type-writter-effect">

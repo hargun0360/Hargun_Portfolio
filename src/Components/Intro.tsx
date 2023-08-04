@@ -1,13 +1,13 @@
 import React from 'react'
-import logo from "../Assets/logo.png"
-import me from "../Assets/hargun_singh.png"
+import logo from "../Assets/logo (1).svg"
+import me from "../Assets/Hargun Background Removed.svg"
 function Intro(){
   return (<>
         <div className="left-sidebar">
             <div className="sidebar-header">
             <img src={logo} alt="logo" />
             <span className="designation">Full Stack Web Developer</span>
-            </div>
+            </div>  
             <img src={me} alt="Hargun Singh" className="me" />
             <h2 className="name">&lt;Hargun Singh /&gt;</h2>
             <p className="intro-line">I love exploring new things!</p>
