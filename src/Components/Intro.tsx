@@ -33,7 +33,7 @@ function Intro(){
                   </a>
                 </li>
             </ul>
-            <a className='resume' href='https://drive.google.com/file/d/1YwRqfR2x17tAOv4DOi4kQ24QK-r23Xig/view?usp=sharing' target='_blank'>
+            <a className='resume' href='https://tinyurl.com/hcv24' target='_blank'>
             <i className="las la-file"></i>
              Resume
             </a>
